@@ -1,0 +1,852 @@
+
+2024-01-28 10:03:07,292 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:03:07,292 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:03:24,626 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:03:24,626 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:04:00,842 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:04:00,842 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:04:12,123 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:04:12,123 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:04:42,430 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:04:42,430 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:04:53,124 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:04:53,125 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:10:03,886 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:10:03,886 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:10:17,643 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:10:17,644 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:14:45,910 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:14:45,910 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:15:02,602 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:15:02,603 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:18:55,034 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:18:55,035 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:19:12,323 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:19:12,323 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:20:38,608 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:20:38,609 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:20:49,335 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:20:49,335 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:20:59,469 INFO     [common.py input_validation:16] Validating input based on regex.
+2024-01-28 10:20:59,470 DEBUG    [common.py input_validation:21] Invalid input entered.
+2024-01-28 10:20:59,470 INFO     [common.py input_validation:16] Validating input based on regex.
+2024-01-28 10:20:59,470 DEBUG    [common.py input_validation:21] Invalid input entered.
+2024-01-28 10:20:59,470 INFO     [common.py input_validation:16] Validating input based on regex.
+2024-01-28 10:20:59,470 DEBUG    [common.py input_validation:21] Invalid input entered.
+2024-01-28 10:20:59,470 INFO     [common.py input_validation:16] Validating input based on regex.
+2024-01-28 10:30:45,472 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:30:45,472 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:31:04,646 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:31:04,646 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 10:31:16,819 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:16,819 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:16,820 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:16,820 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:27,322 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:27,322 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:27,322 DEBUG    [common.py is_input_validation:21] Invalid input entered.
+2024-01-28 10:31:27,322 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:27,322 DEBUG    [common.py is_input_validation:21] Invalid input entered.
+2024-01-28 10:31:27,322 INFO     [common.py is_input_validation:16] Validating input based on regex.
+2024-01-28 10:31:27,322 DEBUG    [common.py is_input_validation:21] Invalid input entered.
+2024-01-28 10:35:26,873 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 10:35:26,873 INFO     [app.py <module>:20] Main module is started
+2024-01-28 10:35:49,650 INFO     [database.py fetch_data_from_database:66] Data Successfully fetched from database
+2024-01-28 10:35:49,650 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 12:28:51,314 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 12:29:33,946 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 12:29:33,954 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 12:29:33,954 INFO     [app.py <module>:20] Main module is started
+2024-01-28 12:30:21,331 INFO     [database.py fetch_data_from_database:67] Data Successfully fetched from database
+2024-01-28 12:30:21,347 INFO     [database.py add_data_to_database:55] Data Saved to database successfully
+2024-01-28 12:30:21,354 INFO     [database.py add_data_to_database:55] Data Saved to database successfully
+2024-01-28 12:30:29,419 INFO     [database.py fetch_data_from_database:67] Data Successfully fetched from database
+2024-01-28 12:30:29,419 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 12:31:19,434 INFO     [database.py fetch_data_from_database:67] Data Successfully fetched from database
+2024-01-28 12:32:37,347 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 12:32:37,347 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 12:32:37,348 INFO     [app.py <module>:20] Main module is started
+2024-01-28 12:32:45,059 INFO     [database.py fetch_data_from_database:67] Data Successfully fetched from database
+2024-01-28 12:32:45,059 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 12:35:27,009 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 12:35:27,009 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 12:35:27,009 INFO     [app.py <module>:20] Main module is started
+2024-01-28 12:35:35,513 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 12:35:35,514 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 12:35:35,514 INFO     [app.py <module>:20] Main module is started
+2024-01-28 12:35:45,015 INFO     [database.py fetch_data_from_database:67] Data Successfully fetched from database
+2024-01-28 12:35:45,015 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 12:36:04,749 INFO     [database.py fetch_data_from_database:67] Data Successfully fetched from database
+2024-01-28 13:57:08,060 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 13:57:08,060 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 13:58:01,489 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 13:58:01,489 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 13:58:01,495 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 13:58:01,495 INFO     [app.py <module>:20] Main module is started
+2024-01-28 13:58:11,636 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 13:58:11,636 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 13:58:35,019 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 14:00:35,983 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 14:00:35,983 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 14:00:35,983 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 14:00:35,983 INFO     [app.py <module>:20] Main module is started
+2024-01-28 14:00:46,689 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 14:00:46,689 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 14:02:24,335 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 14:05:12,385 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 14:05:12,385 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 14:05:12,386 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 14:05:12,386 INFO     [app.py <module>:20] Main module is started
+2024-01-28 14:05:27,380 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 14:05:27,381 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 14:05:49,065 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 14:05:49,206 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-28 14:59:30,876 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 14:59:30,876 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 14:59:30,876 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 14:59:30,876 INFO     [app.py <module>:20] Main module is started
+2024-01-28 14:59:42,111 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 14:59:42,111 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 15:01:14,133 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 15:01:14,134 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 15:01:14,134 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 15:01:14,134 INFO     [app.py <module>:20] Main module is started
+2024-01-28 15:01:23,447 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 15:01:23,448 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 15:02:30,568 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 15:02:30,568 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 15:02:30,568 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 15:02:30,569 INFO     [app.py <module>:20] Main module is started
+2024-01-28 15:02:38,664 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 15:02:38,664 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 15:02:43,858 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:08:21,431 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 17:08:21,431 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 17:08:21,432 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 17:08:21,432 INFO     [app.py <module>:20] Main module is started
+2024-01-28 17:16:28,912 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:16:28,912 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 17:16:36,287 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:16:52,786 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:16:52,787 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:16:52,787 ERROR    [decorators.py wrapper:33] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 72, in get_decrypted_password
+    raise NotFoundError("Sorry no data found!!!!")
+src.helper.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-01-28 17:18:26,787 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 17:18:26,790 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 17:18:26,790 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 17:18:26,790 INFO     [app.py <module>:20] Main module is started
+2024-01-28 17:18:38,292 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:18:38,292 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 17:18:58,517 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:20:32,956 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:23:08,609 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:24:53,880 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 17:24:53,880 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 17:24:53,880 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 17:24:53,880 INFO     [app.py <module>:20] Main module is started
+2024-01-28 17:25:02,803 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:25:02,804 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 17:25:09,579 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:25:20,141 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:25:20,141 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:25:20,142 ERROR    [decorators.py wrapper:33] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 72, in get_decrypted_password
+    raise NotFoundError("Sorry no data found!!!!")
+src.helper.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-01-28 17:57:34,739 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 17:57:34,740 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 17:57:34,741 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 17:57:34,741 INFO     [app.py <module>:20] Main module is started
+2024-01-28 17:57:58,914 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:57:58,914 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 17:59:06,681 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 17:59:06,681 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 17:59:06,681 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 17:59:06,681 INFO     [app.py <module>:20] Main module is started
+2024-01-28 17:59:17,391 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:59:17,392 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 17:59:34,052 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:59:45,389 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:59:45,390 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 17:59:45,390 ERROR    [decorators.py wrapper:51] 'bytes' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 69, in get_decrypted_password
+    obj[3] = fernet.encrypt(obj[3].encode())
+                            ^^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'encode'. Did you mean: 'decode'?
+2024-01-28 18:00:43,715 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:00:43,717 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:00:43,717 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:00:43,717 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:00:55,600 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:00:55,601 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:01:00,243 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:01:15,179 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:02:14,056 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:04:49,783 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:04:49,785 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:04:49,785 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:04:49,785 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:04:58,963 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:04:58,964 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:05:02,793 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:05:07,923 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:05:07,924 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:07:16,802 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:07:16,803 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:07:16,803 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:07:16,803 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:07:26,749 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:07:26,749 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:07:31,818 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:07:46,157 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:07:46,157 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:07:46,384 ERROR    [decorators.py wrapper:51] 'tuple' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 69, in get_decrypted_password
+    obj[3] = fernet.decrypt(obj[3]).decode()
+    ~~~^^^
+TypeError: 'tuple' object does not support item assignment
+2024-01-28 18:07:58,550 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:07:58,552 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:07:58,552 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:07:58,552 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:08:07,329 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:08:07,329 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:08:11,999 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:08:20,544 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:08:20,546 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:08:21,567 ERROR    [decorators.py wrapper:51] 'tuple' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 69, in get_decrypted_password
+    obj[3] = fernet.decrypt(obj[3]).decode()
+    ~~~^^^
+TypeError: 'tuple' object does not support item assignment
+2024-01-28 18:08:50,488 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:08:50,490 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:08:50,490 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:08:50,490 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:08:57,866 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:08:57,866 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:09:02,444 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:09:08,122 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:09:08,123 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:10:37,132 ERROR    [decorators.py wrapper:51] 'tuple' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 69, in get_decrypted_password
+    obj[3] = fernet.decrypt(obj[3]).decode()
+    ~~~^^^
+TypeError: 'tuple' object does not support item assignment
+2024-01-28 18:12:09,008 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:12:09,008 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:12:09,008 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:12:09,008 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:12:16,668 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:12:16,668 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:12:24,418 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:12:40,958 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:12:40,959 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:13:47,838 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:13:47,841 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:13:47,842 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:13:47,842 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:13:55,863 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:13:55,864 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:13:59,971 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:14:50,687 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:14:50,688 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:27:42,784 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:27:42,784 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:27:42,784 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:27:42,784 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:27:51,875 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:27:51,875 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:27:55,422 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:28:06,619 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:28:06,619 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:32:39,013 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:32:39,013 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:32:39,014 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:32:39,014 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:32:48,214 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:32:48,215 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:32:55,248 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:33:04,262 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:33:04,264 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:34:00,726 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:34:00,726 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:34:00,727 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:34:00,727 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:34:09,158 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:34:09,159 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:34:12,691 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:34:20,369 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:34:20,369 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:45:43,538 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:45:43,539 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:45:43,539 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:45:43,539 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:45:52,364 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:45:52,365 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:46:02,602 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:46:11,189 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:46:11,192 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:47:48,899 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 18:47:48,901 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 18:47:48,901 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 18:47:48,901 INFO     [app.py <module>:20] Main module is started
+2024-01-28 18:47:58,860 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:47:58,860 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 18:48:02,747 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:48:11,617 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 18:48:11,617 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:19:49,506 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:19:49,507 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:19:49,507 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:19:49,507 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:20:02,744 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:20:02,744 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:23:27,810 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:23:27,810 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:23:27,810 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:23:27,810 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:24:05,907 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:24:05,908 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:25:08,235 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:25:08,236 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:25:08,236 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:25:08,236 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:25:19,742 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:25:19,742 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:26:00,669 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:26:00,669 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:26:00,669 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:26:00,669 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:26:09,874 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:26:09,874 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:26:47,795 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:26:47,796 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:26:47,796 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:26:47,796 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:26:56,277 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:26:56,277 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:27:00,073 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:27:23,767 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:27:24,586 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:27:24,596 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-28 21:28:32,776 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:28:32,776 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:28:32,777 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:28:32,777 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:28:39,738 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:28:39,739 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:28:44,933 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:29:07,142 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:29:07,314 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:29:07,329 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-28 21:54:43,395 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:54:43,395 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:54:43,395 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:54:43,395 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:54:54,653 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:55:29,298 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:55:29,298 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:55:29,299 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:55:29,299 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:55:39,311 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:55:39,311 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:55:49,307 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:55:59,933 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:55:59,934 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:57:02,901 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:57:02,901 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:57:02,902 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:57:02,902 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:57:10,595 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:57:10,595 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:57:15,284 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:57:26,445 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:02,908 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 21:58:02,908 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 21:58:02,908 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 21:58:02,909 INFO     [app.py <module>:20] Main module is started
+2024-01-28 21:58:11,512 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:11,512 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 21:58:14,869 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:28,512 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:28,521 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-28 21:58:38,113 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:44,515 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:44,515 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 21:58:44,515 ERROR    [decorators.py wrapper:33] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\password_controller.py", line 29, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id1, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\password_business.py", line 74, in get_decrypted_password
+    raise NotFoundError("Sorry no data found!!!!")
+src.helper.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-01-28 22:23:54,785 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 22:23:54,786 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 22:23:54,786 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 22:23:54,786 INFO     [app.py <module>:20] Main module is started
+2024-01-28 22:24:09,593 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 22:24:09,593 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 22:24:12,425 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 22:25:38,751 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 22:25:38,751 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 22:25:38,752 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 22:25:38,752 INFO     [app.py <module>:20] Main module is started
+2024-01-28 22:25:54,943 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 22:25:54,943 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 22:25:57,444 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 22:26:26,900 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 22:26:26,900 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 22:26:26,900 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 22:26:26,900 INFO     [app.py <module>:20] Main module is started
+2024-01-28 22:26:38,467 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 22:26:38,467 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 22:26:43,963 INFO     [decorators.py wrapper:74] Exiting from loop
+2024-01-28 22:27:08,813 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 22:27:08,813 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 22:27:08,813 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 22:27:08,813 INFO     [app.py <module>:20] Main module is started
+2024-01-28 22:27:20,348 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 22:27:20,348 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 44, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 54, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helper.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-28 23:08:57,661 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 23:08:57,661 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 23:08:57,661 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 23:08:57,661 INFO     [app.py <module>:20] Main module is started
+2024-01-28 23:08:57,662 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 23:09:06,779 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 23:09:06,780 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 44, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 54, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helper.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-28 23:09:06,803 WARNING  [auth_dashboard.py login_user:71] Reducing login attempts due to invalid login.
+2024-01-28 23:09:33,885 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-28 23:09:33,886 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-28 23:09:33,886 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-28 23:09:33,886 INFO     [app.py <module>:20] Main module is started
+2024-01-28 23:09:33,886 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-28 23:09:42,656 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 23:09:42,657 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 44, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 54, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helper.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-28 23:09:42,673 WARNING  [auth_dashboard.py login_user:71] Reducing login attempts due to invalid login.
+2024-01-28 23:09:51,660 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 23:09:51,660 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 44, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 54, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helper.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-28 23:09:51,661 WARNING  [auth_dashboard.py login_user:71] Reducing login attempts due to invalid login.
+2024-01-28 23:10:02,785 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 23:10:02,786 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 44, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 54, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helper.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-28 23:10:02,787 WARNING  [auth_dashboard.py login_user:71] Reducing login attempts due to invalid login.
+2024-01-28 23:10:15,617 WARNING  [auth_dashboard.py login_user:57] Login attempts exhausted. System in sleep for 10 seconds.
+2024-01-28 23:10:25,618 INFO     [auth_dashboard.py login_user:61] System resumed for use.
+2024-01-28 23:10:39,002 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-28 23:10:39,002 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helper\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 44, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 54, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helper.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-28 23:10:39,003 WARNING  [auth_dashboard.py login_user:71] Reducing login attempts due to invalid login.
+2024-01-28 23:10:41,455 INFO     [decorators.py wrapper:74] Exiting from loop
+2024-01-29 00:01:10,285 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 00:01:10,285 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 00:01:10,285 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 00:01:10,285 INFO     [app.py <module>:20] Main module is started
+2024-01-29 00:01:10,285 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 00:02:06,114 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 00:02:06,114 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 00:02:06,114 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 00:02:06,114 INFO     [app.py <module>:20] Main module is started
+2024-01-29 00:02:06,114 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 00:36:26,669 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 00:36:26,677 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 00:36:26,684 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 00:36:26,684 INFO     [app.py <module>:22] Main module is started
+2024-01-29 00:36:26,684 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 00:44:04,681 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 00:44:04,681 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 00:44:04,681 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 00:44:04,681 INFO     [app.py <module>:22] Main module is started
+2024-01-29 00:44:04,681 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 00:44:33,444 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 00:44:33,452 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 00:44:33,461 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 00:44:45,346 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 00:44:45,346 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 21:26:11,831 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:26:11,832 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:26:11,832 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:26:11,832 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:26:11,833 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 21:26:40,563 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:26:40,563 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:26:40,564 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:26:40,564 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:26:40,564 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 21:28:00,011 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:28:00,011 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:28:00,012 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:28:00,012 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:28:00,012 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 21:29:26,659 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:29:26,659 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:29:26,659 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:29:26,659 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:29:26,659 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 21:31:02,928 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:31:02,928 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:31:02,929 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:31:02,929 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:32:08,547 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 21:32:08,556 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\helpers\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\controllers\auth_controller.py", line 47, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH\src\business_logic\auth_business.py", line 56, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helpers.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-29 21:32:08,609 WARNING  [auth_dashboard.py login_user:84] Reducing login attempts due to invalid login.
+2024-01-29 21:33:17,690 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:33:17,691 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:33:17,691 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:33:17,692 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:41:01,024 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:41:01,024 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:41:01,024 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:41:01,024 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:45:26,950 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:45:26,950 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:45:26,951 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:45:26,951 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:46:08,839 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 21:46:08,854 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 21:46:08,863 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 21:46:20,065 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 21:46:20,066 ERROR    [decorators.py wrapper:33] User Not Found!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\helpers\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\controllers\auth_controller.py", line 47, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\business_logic\auth_business.py", line 56, in get_user_by_username_and_password
+    raise NotFoundError("User Not Found!!")
+src.helpers.exceptions.not_found.NotFoundError: User Not Found!!
+2024-01-29 21:46:20,082 WARNING  [auth_dashboard.py login_user:84] Reducing login attempts due to invalid login.
+2024-01-29 21:48:34,211 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:48:34,212 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:48:34,212 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:48:34,212 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:49:01,124 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 21:49:01,140 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 21:49:01,148 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 21:50:32,688 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 21:52:33,492 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:52:33,492 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:52:33,493 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:52:33,493 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:52:57,236 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 21:52:57,236 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 21:52:57,236 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 21:52:57,236 INFO     [app.py <module>:23] Main module is started
+2024-01-29 21:53:10,985 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 21:53:19,232 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:31:36,135 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:31:36,135 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:31:36,136 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:31:36,136 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:31:36,136 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:31:51,221 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:31:51,222 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:31:51,222 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:31:51,222 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:31:51,222 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:32:04,473 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:32:04,474 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:32:04,474 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:32:04,474 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:32:04,474 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:32:15,629 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:32:15,629 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:32:23,603 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:33:02,023 INFO     [decorators.py wrapper:74] Exiting from loop
+2024-01-29 22:38:41,223 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:38:41,224 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:38:41,224 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:38:41,224 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:38:41,224 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:38:51,216 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:38:51,216 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:38:51,216 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:38:51,217 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:38:51,217 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:39:15,526 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:39:15,526 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:39:23,299 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:39:41,643 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:39:41,644 ERROR    [decorators.py wrapper:51] too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\helpers\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\controllers\users_controller.py", line 23, in delete_user_by_username
+    self.user_business.inactive_user(user_name)
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\business_logic\users_business.py", line 21, in inactive_user
+    for user_name1, obj in get_all_users:
+        ^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2024-01-29 22:40:52,133 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:40:58,985 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:40:58,985 ERROR    [decorators.py wrapper:51] too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\helpers\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\controllers\users_controller.py", line 23, in delete_user_by_username
+    self.user_business.inactive_user(user_name)
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\business_logic\users_business.py", line 21, in inactive_user
+    for user_name1, obj in get_all_users:
+        ^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2024-01-29 22:42:32,366 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:42:32,366 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:42:32,366 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:42:32,366 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:42:32,366 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:42:47,018 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:42:47,019 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:42:49,249 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:42:56,428 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:44:20,582 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:44:20,582 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:44:20,582 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:44:20,582 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:44:20,582 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:44:33,862 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:44:33,862 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:44:36,500 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:44:43,760 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:46:30,223 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:46:30,223 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:46:30,223 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:46:30,223 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:46:30,223 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:46:45,417 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:46:45,418 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:46:47,733 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:47:02,343 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:47:02,361 INFO     [database.py add_data_to_database:57] Data Saved to database successfully
+2024-01-29 22:47:45,015 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-29 22:47:45,015 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-29 22:47:45,015 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-29 22:47:45,015 INFO     [app.py <module>:23] Main module is started
+2024-01-29 22:47:45,015 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:47:59,095 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-29 22:47:59,096 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-29 22:48:00,939 INFO     [database.py fetch_data_from_database:69] Data Successfully fetched from database
+2024-01-30 11:57:33,073 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 11:57:33,074 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 11:57:33,074 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 11:57:33,074 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 11:57:33,074 INFO     [app.py <module>:23] Main module is started
+2024-01-30 11:57:33,074 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:00:06,917 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 12:00:06,918 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 12:00:06,918 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 12:00:06,918 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 12:00:06,918 INFO     [app.py <module>:23] Main module is started
+2024-01-30 12:00:06,918 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:00:39,192 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 12:00:39,193 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 12:00:39,193 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 12:00:39,193 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 12:00:39,193 INFO     [app.py <module>:23] Main module is started
+2024-01-30 12:00:54,357 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:55:06,702 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 12:55:06,702 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 12:55:06,703 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 12:55:06,703 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 12:55:06,703 INFO     [app.py <module>:23] Main module is started
+2024-01-30 12:55:06,703 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:55:53,600 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 12:55:53,602 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 12:55:53,602 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 12:55:53,602 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 12:55:53,602 INFO     [app.py <module>:23] Main module is started
+2024-01-30 12:55:53,602 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:56:08,488 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:56:08,489 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:56:16,064 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:56:17,703 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:56:33,676 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:56:33,676 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:56:33,676 ERROR    [decorators.py wrapper:33] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\helpers\decorators.py", line 28, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\controllers\password_controller.py", line 68, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id1, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\atomar\PycharmProjects\KAVACH2.0\src\business_logic\password_business.py", line 75, in get_decrypted_password
+    raise NotFoundError("Sorry no data found!!!!")
+helpers.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-01-30 12:57:34,820 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 12:57:34,820 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 12:57:34,821 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 12:57:34,821 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 12:57:34,821 INFO     [app.py <module>:23] Main module is started
+2024-01-30 12:57:34,821 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:57:44,348 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:57:44,348 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:58:22,356 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 12:58:24,244 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:58:55,008 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 12:58:55,008 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 13:15:08,223 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 13:15:08,224 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 13:15:08,224 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 13:15:08,225 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 13:15:08,225 INFO     [app.py <module>:23] Main module is started
+2024-01-30 13:15:08,225 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 13:15:24,500 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 13:15:24,500 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 13:15:24,501 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 13:15:24,501 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 13:15:24,501 INFO     [app.py <module>:23] Main module is started
+2024-01-30 13:15:24,501 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 13:15:34,439 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 13:15:34,440 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 13:15:38,895 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 13:15:41,061 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 17:45:22,082 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 17:45:22,082 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 17:45:22,083 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 17:45:22,083 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 17:45:22,083 INFO     [app.py <module>:22] Main module is started
+2024-01-30 17:45:22,084 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 17:45:46,849 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 17:45:46,849 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 17:45:46,850 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 17:45:46,850 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 17:45:46,850 INFO     [app.py <module>:22] Main module is started
+2024-01-30 17:45:46,850 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 17:46:04,876 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 17:46:04,876 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 17:46:11,094 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 21:20:55,054 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 21:20:55,054 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 21:20:55,054 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 21:20:55,054 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 21:20:55,054 INFO     [app.py <module>:23] Main module is started
+2024-01-30 21:20:55,054 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 21:26:58,817 INFO     [database.py create_all_tables:43] Successfully Created Users table
+2024-01-30 21:26:58,817 INFO     [database.py create_all_tables:45] Successfully Created Key table
+2024-01-30 21:26:58,817 INFO     [database.py create_all_tables:47] Successfully Created Password Table
+2024-01-30 21:26:58,817 INFO     [database.py create_all_tables:49] Successfully Created Password Table
+2024-01-30 21:26:58,817 INFO     [app.py <module>:23] Main module is started
+2024-01-30 21:26:58,817 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 21:27:33,758 INFO     [database.py fetch_data_from_database:71] Data Successfully fetched from database
+2024-01-30 21:27:33,758 INFO     [decorators.py wrapper:70] Entering into loop
+2024-01-30 21:27:39,704 INFO     [decorators.py wrapper:70] Entering into loop
