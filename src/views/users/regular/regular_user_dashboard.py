@@ -22,26 +22,28 @@ class RegularUserDashboard:
         self.user = user
         self.password_controller = password_controller
 
-    @looper
-    def menu(self) -> bool:
+    
+    def menu(self) -> None:
         """
         This method shows only the menu
         :return: bool
         """
-        print(Prompts.HI_USER.format(self.user.username))
-        print(Prompts.REGULAR_USER_MENU)
-        choice = input(Prompts.ENTER_CHOICE)
-        match choice:
-            case RegularUserStarter.CheckStrength.value:
-                self.check_password_strength()
-            case RegularUserStarter.GeneratePassword.value:
-                self.generate_password()
-            case RegularUserStarter.OpenPasswordDashboard.value:
-                password_dashboard = PasswordDashboard(self.user, self.password_controller)
-                password_dashboard.menu()
-            case RegularUserStarter.Exit.value:
-                sys.exit()
-        return False
+        while True:
+            print(Prompts.HI_USER.format(self.user.username))
+            print(Prompts.REGULAR_USER_MENU)
+            choice = input(Prompts.ENTER_CHOICE)
+            match choice:
+                case RegularUserStarter.CheckStrength.value:
+                    self.check_password_strength()
+                case RegularUserStarter.GeneratePassword.value:
+                    self.generate_password()
+                case RegularUserStarter.OpenPasswordDashboard.value:
+                    password_dashboard = PasswordDashboard(self.user, self.password_controller)
+                    password_dashboard.menu()
+                case RegularUserStarter.Exit.value:
+                     sys.exit()
+       
+        
 
     def check_password_strength(self) -> None:
         """
@@ -52,6 +54,8 @@ class RegularUserDashboard:
         messages = self.password_controller.check_password(password)
         for message in messages:
             print(message)
+            print()
+        
 
     @error_handler
     def generate_password(self) -> None:
@@ -61,5 +65,7 @@ class RegularUserDashboard:
         """
         length = int(input(Prompts.LENGTH_FOR_PASSWORD))
         generated_password = self.password_controller.generate_password(length)
-        print(generated_password)
+        if  generated_password:
+            print(generated_password+"\n")
+            
 

@@ -9,7 +9,7 @@ from helpers.common import display_table
 from helpers.decorators import looper
 from models.users import User
 from views.table_headers.user_details_header import USER_DETAILS_HEADER
-
+import sys
 
 class AdminDashboard:
 
@@ -17,31 +17,26 @@ class AdminDashboard:
         self.user = user
         self.user_controller = user_controller
 
-    @looper
-    def menu(self) -> bool:
+
+    def menu(self) -> None:
         """
         This function will show menu bar of admin dashboard
-        :return:bool
+        :return:None
         """
-        print(Prompts.HI_USER.format(self.user.username))
-        print("Press 1 to add new admin"
-              "\nPress 2 to see list of user's"
-              "\nPress 3 to delete any user"
-              "\nPress 4 to Exit"
-              )
-        choice = input(Prompts.ENTER_CHOICE)
-        match choice:
-            case AdminStarter.Add_NEW_ADMIN.value:
-                self.add_new_admin()
-            case AdminStarter.SEE_USERS.value:
-                self.see_users_view()
-            case AdminStarter.DELETE_USER.value:
-                self.delete_users_view()
-            case AdminStarter.Exit.value:
-                self.user = None
-
-
-        return False
+        while True:
+            print(Prompts.HI_USER.format(self.user.username))
+            print(Prompts.ADMIN_DASHBOARD)
+            choice = input(Prompts.ENTER_CHOICE)
+            match choice:
+                case AdminStarter.Add_NEW_ADMIN.value:
+                    self.add_new_admin()
+                case AdminStarter.SEE_USERS.value:
+                    self.see_users_view()
+                case AdminStarter.DELETE_USER.value:
+                    self.delete_users_view()
+                case AdminStarter.Exit.value:
+                    self.user = None
+                    sys.exit()
 
     def add_new_admin(self):
         """
@@ -65,13 +60,13 @@ class AdminDashboard:
 
         :return: None
         """
-        result = self.user_controller.get_all_user(self.user, self.user)
+        result = self.user_controller.get_all_user(self.user)
         display_table(result, USER_DETAILS_HEADER)
         choosen_username = input(Prompts.ENTER_USERNAME).strip()
-        result = self.user_controller.delete_user_by_username(choosen_username)
+        result = self.user_controller.delete_user_by_username(choosen_username,self.user)
         if result:
             print(result)
-        else:
+        else :
             print(Prompts.SOMETHING_WENT_WRONG)
 
 

@@ -3,19 +3,17 @@ This module is to perform unit testing of password business class.
 """
 
 from unittest import mock
-
 import pytest
 from cryptography.fernet import Fernet
 from src.business_logic.password_business import PasswordBusiness
+from src.helpers.exceptions.not_found import NotFoundError
 from src.helpers.exceptions.range_error import RangeError
 from src.models.password import Password
-from tests.conftest import dummy_fernet_key, dummy_fernet_obj
 
 
 fernet = Fernet.generate_key()
-# def dummy_fernet_key1():
-#         return Fernet.generate_key()
 fernet_obj = Fernet(fernet)
+
 class TestPasswordBusiness:
     password_business = PasswordBusiness()
     generated_key = Fernet.generate_key()
@@ -61,18 +59,71 @@ class TestPasswordBusiness:
         for i in range(len(actual)):
             assert actual[i] == expected[i]
         
-    # @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",return_value=[(Fernet(Fernet.generate_key()).encrypt("Mypassword#18".encode()),Fernet.generate_key())])
-    # @mock.patch("src.business_logic.password_business.Fernet",return_value = Fernet(Fernet.generate_key()))
-    # def test_get_decrypted_password(self,mock_fetch_data,mock_fetnet):
-    #     actual = self.password_business.get_decrypted_password(str(Fernet.generate_key()),"ayush")
-     
-#     @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",side_effect = [[("ayush",fernet)],[("test_password_id","ayush","www.google.com","login")]])
-#     @mock.patch("src.business_logic.password_business.db.add_data_to_database")
-#     @mock.patch("src.business_logic.password_business.Fernet",return_value = fernet_obj)
-#    # @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",return_value = [("test_password_id","ayush","www.google.com","login")])
-#     def test_updated_password_valid_id(self,mock_fetch_data, mock_add_data, mock_fernet):
-#         actual = self.password_business.update_password(fernet,"ayush","Aysuh#18")
+    @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",return_value=[(fernet_obj.encrypt("Ayush#199".encode()),fernet)])
+    @mock.patch("src.business_logic.password_business.Fernet",return_value = fernet_obj)
+    def test_get_decrypted_password(self,mock_fetch_data,mock_fetnet):
+         expected = [("Mypassword_test_id","Ayush#199")]
+         actual = self.password_business.get_decrypted_password("Mypassword_test_id","ayush")
+         mock_fetch_data.assert_called_once()
+         mock_fetnet.assert_called_once()
+         assert expected == actual
+    
+
+    @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",return_value=[])
+    @mock.patch("src.business_logic.password_business.Fernet",return_value = fernet_obj)
+    @mock.patch("src.business_logic.password_business.NotFoundError",return_value=NotFoundError("Sorry no data found!!!!"))
+    def test_get_decrypted_password(self,mock_fetch_data,mock_fetnet,mock_not_found):
         
+         with pytest.raises(NotFoundError) as exc: 
+            self.password_business.get_decrypted_password("Mypassword_test_id","ayush")
+         mock_fetch_data.assert_called_once()
+         assert exc.type == NotFoundError
+         assert exc.value.message == "Sorry no data found!!!!"
+         
+    @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",side_effect = [[("ayush",fernet)],[("test_password_id","ayush","www.google.com","login")]])
+    @mock.patch("src.business_logic.password_business.db.add_data_to_database")
+    @mock.patch("src.business_logic.password_business.Fernet",return_value = fernet_obj)
+    def test_updated_password_valid_id(self,mock_fetch_data, mock_add_data, mock_fernet):
+        actual = self.password_business.update_password("test_password_id","ayush","Aysuh#18")
+        mock_add_data.assert_called_once()
+        mock_fernet.call_count == 2
+        mock_fetch_data.call_count == 2
+
+    @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",side_effect = [[("ayush",fernet)],[("test_password_id","ayush","www.google.com","login")]])
+    @mock.patch("src.business_logic.password_business.db.add_data_to_database")
+    @mock.patch("src.business_logic.password_business.Fernet",return_value = fernet_obj)
+    @mock.patch("src.business_logic.password_business.NotFoundError",return_value=NotFoundError("Sorry no data found!!!!"))
+    def test_updated_password_invalid_id(self,mock_fetch_data, mock_add_data, mock_fernet,not_found_error):
+
+        with pytest.raises(NotFoundError)as exc:
+             self.password_business.update_password("wrong_password_id","ayush","Aysuh#18")
+        assert exc.type == NotFoundError
+        assert exc.value.message == "Sorry no data found!!!!"
+        mock_fernet.call_count == 2
+        mock_fetch_data.call_count == 2
+     
+    @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",return_value = [("test_password_id","ayush","www.google.com","login")])
+    @mock.patch("src.business_logic.password_business.db.add_data_to_database")
+    def test_delete_pssword_validpassword_id(self,mock_fetch_data,mock_add_data):
+        self.password_business.delete_password("test_password_id","ayush")
+        mock_add_data.assert_called_once()
+        mock_fetch_data.assert_called_once()
+    
+    @mock.patch("src.business_logic.password_business.db.fetch_data_from_database",return_value = [("test_password_id","ayush","www.google.com","login")])
+    @mock.patch("src.business_logic.password_business.db.add_data_to_database")
+    @mock.patch("src.business_logic.password_business.NotFoundError",return_value=NotFoundError("Sorry no data found!!!!"))
+    def test_delete_pssword_invalidpassword_id(self,mock_fetch_data,mock_add_data,notfounderror):
+        
+        with pytest.raises(NotFoundError)as exc:
+            self.password_business.delete_password("test_password","ayush")
+        assert exc.type == NotFoundError
+        assert exc.value.message == "Sorry no data found!!!!"
+        mock_fetch_data.assert_called_once()
+        
+    
+
+
+    
 
 
     

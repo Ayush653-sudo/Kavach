@@ -25,7 +25,6 @@ def is_input_validation(regular_exp: str, input_field: str) -> bool:
         return False
 
 
-
 def display_table(data: list, headers: list) -> None:
     """
      Method to display data in tabular format using tabulate.

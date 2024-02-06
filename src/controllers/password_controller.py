@@ -22,9 +22,9 @@ class PasswordController:
     update_password()
     delete_password_by_id()
     """
-    def __init__(self,password_business):
+    def __init__(self,password_business,audit_business):
         self.password_business = password_business
-        self.audit_business = AuditBusiness()
+        self.audit_business = audit_business
 
     def check_password(self, password: str) -> list:
         """
@@ -44,7 +44,7 @@ class PasswordController:
         """
         return self.password_business.generate_password(length)
 
-   # @error_handler
+    @error_handler
     def add_new_password(self, password: Password) -> str:
         """
         This method will add new password

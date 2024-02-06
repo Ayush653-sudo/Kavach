@@ -5,10 +5,12 @@ REGULAR_USER_MENU : |
   Press 2 to generate any strong password !!
   press 3 to Open your passwords dashboard!!
   press 4 Exit!!
-ENTER_CHOICE : "Please enter your choice"
+
+ENTER_CHOICE : "Please enter your choice :"
 PASSWORD_TO_CHECK_STRENGTH : "Enter password whose strength you want to test!! "
 LENGTH_FOR_PASSWORD : "Enter length of password you want to create!!"
 HI_USER : "Hi {} !!"
+
 PASSWORD_DASHBOARD_MENU : |
   Press 1 to add new password
   Press 2 to see any password
@@ -16,6 +18,7 @@ PASSWORD_DASHBOARD_MENU : |
   Press 4 to delete password
   Press 5 to open audit dashboard
   Press 6 to exit
+
 ENTER_WEBSITE_URL : |
   Enter URL of website whose password you want to save
   if it is not website then press simply enter :
@@ -33,7 +36,9 @@ ENTER_PASSWORD_ID_TO_DELETED : |
   Enter ID that ypu want to update 
   other wise just press enter to go back :
 PASSWORD_UPDATED_SUCESSFULLY : "Successfully updated the password"
+
 PASSWORD_DELETED_SUCCESSFULLY : "Successfully deleted the password."
+
 PASSWORD_ADDED_SUCCESSFULLY : "Successfully Added New Password in the KAVACH"
 
 ENTER_USERNAME : "Enter your username :"
@@ -43,7 +48,6 @@ ENTER_LOGIN_DETAILS : "Please Enter Login Details!!"
 LOGIN_OR_REGISTER_CHOICE : |
   If you do not have account then press 1 to create 
   else press any other key to register:
-
 USER_DELETED_SUCCESSFULLY : "{} deleted successfully"
 USER_REGISTERED_SUCCESSFULLY : "User registered Successfully!!"
 LOGIN_ATTEMPT_LEFT : "You have only {} left!!"
@@ -53,9 +57,16 @@ SORRY_NO_DATA : "Sorry no data found!!!!"
 DUBLICATE_KEY : "Sorry this username is already taken try some else !!!"
 AUDIT_MENU : |
   Press 1 to see Fetched audit
-  Press 2 to see Updated audit
-  Press 3 to Added audit
-  Press 4To go back"
+  Press 2 to see Initial audit
+  Press 3 to Updated audit6
+  Press 4 To go back
+
+ADMIN_DASHBOARD : |
+  Press 1 to add new admin
+  Press 2 to see list of user's
+  Press 3 to delete any user
+  Press 4 to Exit
+
 ENTER_PASSWORD_ID_TO_FETCH_AUDIT: "Enter Password Id whose Audit you want to see"
 INTEGRITY_ERROR_MESSAGE : You entered data that already exist. Please enter unique data
 OPERATIONAL_ERROR_MESSAGE : Something unexpected happened with the Database. Please try again after some time

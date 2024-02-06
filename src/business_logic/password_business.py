@@ -70,9 +70,7 @@ class PasswordBusiness:
             result = fernet.decrypt(password).decode()
             final = (id1,result)
             return [final]
-
-
-       # raise NotFoundError(Prompts.SORRY_NO_DATA)
+        raise NotFoundError(Prompts.SORRY_NO_DATA)
 
     def update_password(self, id1: str, user_name: str, updated_password: str):
         keys = db.fetch_data_from_database(QueryConfig.GET_ALL_KEY, (user_name,))
@@ -88,7 +86,7 @@ class PasswordBusiness:
 
     def delete_password(self, id1: str, user_name: str) -> None:
         list_of_passwords = self.get_password_by_username(user_name)
-        for password_id, obj in list_of_passwords:
+        for password_id, username, url,operation in list_of_passwords:
             if password_id == id1:
                 db.add_data_to_database(QueryConfig.DELETE_PASSWORD_FROM_TABLE, (id1,))
                 return

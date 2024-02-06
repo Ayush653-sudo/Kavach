@@ -43,7 +43,7 @@ class TestAuthBusiness:
     @mock.patch("src.business_logic.auth_business.db.fetch_data_from_database",return_value=[("lyush","4fe89e0893233a387e3133a8609e9b0a95b3b0acec3124b44cfeb50d1da657e9","9636653732","ayushsinght70@gmail.com","Admin","active")])
     @mock.patch("src.business_logic.auth_business.hashlib.sha256",return_value=hashlib.sha256("Ayush#18".encode('utf-8')))
     @mock.patch("src.business_logic.auth_business.NotFoundError",return_value=NotFoundError("Sorry no data found!!!!"))
-    def test_get_user_by_username_and_password_Invalidusername_raise_notfounderror(self,notfond,sha256,fetch_data_from_database):
+    def test_get_user_by_username_and_password_Invalidusername_raise_notfounderror(self,fetch_data_from_database,notfond,sha256):
         with pytest.raises(NotFoundError) as exc:
             self.auth_business.get_user_by_username_and_password(("ayush","Ayush#18"))
         assert exc.type == NotFoundError

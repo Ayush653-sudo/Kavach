@@ -4,6 +4,7 @@ This module is only to check strength of any password
 from config.app_config import AppConfig
 from config.regex_pattern import RegexPattern
 from helpers.common import is_input_validation
+from config.prompts.prompts import Prompts
 
 
 def check_strength(password):
@@ -13,8 +14,7 @@ def check_strength(password):
     strength_message=[]
     time_used = most_common_password(password)
     if time_used:
-        strength_message.append(f"your entered password is already in use  {time_used} times"+
-                                f" and among most common password list")
+        strength_message.append(Prompts.PASSWORD_IN_USE.format(time_used))
 
     if not is_input_validation(RegexPattern.HAS_NUMBER, password):
         strength_message.append("Your Password should contain at least one number ")

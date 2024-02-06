@@ -1,0 +1,268 @@
+2024-02-02 20:54:46,829 INFO     [database.py create_all_tables:44] None
+2024-02-02 20:54:46,829 INFO     [database.py create_all_tables:46] None
+2024-02-02 20:54:46,829 INFO     [database.py create_all_tables:48] None
+2024-02-02 20:54:46,829 INFO     [database.py create_all_tables:50] None
+2024-02-02 20:54:46,829 INFO     [app.py <module>:23] None
+2024-02-02 20:54:46,829 INFO     [decorators.py wrapper:72] None
+2024-02-02 20:55:01,618 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 20:55:01,618 INFO     [decorators.py wrapper:72] None
+2024-02-02 20:57:54,141 ERROR    [decorators.py wrapper:53] invalid literal for int() with base 10: 'l'
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\views\users\regular\regular_user_dashboard.py", line 62, in generate_password
+    length = int(input(Prompts.LENGTH_FOR_PASSWORD))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'l'
+2024-02-02 21:01:01,972 ERROR    [decorators.py wrapper:32] You must enter length grater than or equal to 8
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\controllers\password_controller.py", line 45, in generate_password
+    return self.password_business.generate_password(length)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\business_logic\password_business.py", line 40, in generate_password
+    raise RangeError("You must enter length grater than or equal to 8")
+helpers.exceptions.range_error.RangeError: You must enter length grater than or equal to 8
+2024-02-02 21:02:51,339 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:02:51,339 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:02:51,340 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:02:51,340 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:03:32,455 ERROR    [decorators.py wrapper:53] invalid literal for int() with base 10: 'Ayush#18'
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\views\users\regular\regular_user_dashboard.py", line 62, in generate_password
+    """
+        
+ValueError: invalid literal for int() with base 10: 'Ayush#18'
+2024-02-02 21:04:07,627 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:04:07,627 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:04:07,627 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:04:07,627 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:04:18,773 INFO     [decorators.py wrapper:72] None
+2024-02-02 21:04:47,935 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:05:00,252 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:05:00,656 INFO     [database.py add_data_to_database:60] None
+2024-02-02 21:05:14,564 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:07:58,105 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:07:58,106 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:07:58,106 ERROR    [decorators.py wrapper:35] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\controllers\password_controller.py", line 78, in update_password
+    self.password_business.update_password(id1, user_name, updated_password)
+  File "c:\Users\atomar\projects\KAVACH\src\business_logic\password_business.py", line 85, in update_password
+    raise NotFoundError(Prompts.SORRY_NO_DATA)
+helpers.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-02-02 21:08:10,845 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:08:26,690 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:08:26,691 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:08:26,699 INFO     [database.py add_data_to_database:60] None
+2024-02-02 21:08:26,707 INFO     [database.py add_data_to_database:60] None
+2024-02-02 21:08:31,537 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:08:41,230 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:08:41,243 INFO     [database.py add_data_to_database:60] None
+2024-02-02 21:08:45,510 INFO     [decorators.py wrapper:76] None
+2024-02-02 21:11:59,242 INFO     [database.py create_all_tables:44] None
+2024-02-02 21:11:59,242 INFO     [database.py create_all_tables:46] None
+2024-02-02 21:11:59,242 INFO     [database.py create_all_tables:48] None
+2024-02-02 21:11:59,242 INFO     [database.py create_all_tables:50] None
+2024-02-02 21:11:59,242 INFO     [app.py <module>:23] None
+2024-02-02 21:11:59,242 INFO     [decorators.py wrapper:72] None
+2024-02-02 21:12:07,839 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:12:07,839 INFO     [decorators.py wrapper:72] None
+2024-02-02 21:13:07,851 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:13:07,851 DEBUG    [common.py is_input_validation:24] None
+2024-02-02 21:13:07,851 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:13:07,851 DEBUG    [common.py is_input_validation:24] None
+2024-02-02 21:13:07,851 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:13:07,852 INFO     [common.py is_input_validation:19] None
+2024-02-02 21:14:07,844 INFO     [decorators.py wrapper:72] None
+2024-02-02 21:14:11,132 INFO     [decorators.py wrapper:72] None
+2024-02-02 21:14:29,598 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:15:01,903 INFO     [decorators.py wrapper:76] None
+2024-02-02 21:15:07,179 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:15:18,394 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:15:18,394 ERROR    [decorators.py wrapper:35] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\controllers\password_controller.py", line 70, in get_decrypted_password_by_id
+    get_decrypted_password = self.password_business.get_decrypted_password(id1, user_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\business_logic\password_business.py", line 73, in get_decrypted_password
+    raise NotFoundError(Prompts.SORRY_NO_DATA)
+helpers.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-02-02 21:16:49,179 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:16:53,223 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:16:53,587 INFO     [database.py add_data_to_database:60] None
+2024-02-02 21:17:15,690 INFO     [decorators.py wrapper:72] None
+2024-02-02 21:17:22,575 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:18:01,269 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:18:12,534 INFO     [database.py fetch_data_from_database:72] None
+2024-02-02 21:18:48,132 INFO     [decorators.py wrapper:76] None
+2024-02-02 21:20:47,750 INFO     [decorators.py wrapper:76] None
+2024-02-03 08:08:50,969 INFO     [database.py create_all_tables:44] None
+2024-02-03 08:08:50,969 INFO     [database.py create_all_tables:46] None
+2024-02-03 08:08:50,969 INFO     [database.py create_all_tables:48] None
+2024-02-03 08:08:50,969 INFO     [database.py create_all_tables:50] None
+2024-02-03 08:08:50,969 INFO     [app.py <module>:23] None
+2024-02-03 08:08:50,969 INFO     [decorators.py wrapper:72] None
+2024-02-03 08:08:54,870 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:26:50,334 INFO     [database.py create_all_tables:44] None
+2024-02-05 09:26:50,334 INFO     [database.py create_all_tables:46] None
+2024-02-05 09:26:50,334 INFO     [database.py create_all_tables:48] None
+2024-02-05 09:26:50,334 INFO     [database.py create_all_tables:50] None
+2024-02-05 09:26:50,334 INFO     [app.py <module>:23] None
+2024-02-05 09:26:50,334 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:34:12,994 INFO     [database.py create_all_tables:44] None
+2024-02-05 09:34:12,994 INFO     [database.py create_all_tables:46] None
+2024-02-05 09:34:12,994 INFO     [database.py create_all_tables:48] None
+2024-02-05 09:34:12,994 INFO     [database.py create_all_tables:50] None
+2024-02-05 09:34:12,994 INFO     [app.py <module>:23] None
+2024-02-05 09:34:12,994 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:34:19,275 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:34:26,858 INFO     [decorators.py wrapper:76] None
+2024-02-05 09:34:26,858 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:34:37,279 INFO     [decorators.py wrapper:76] None
+2024-02-05 09:34:37,279 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:34:43,058 INFO     [decorators.py wrapper:76] None
+2024-02-05 09:34:43,058 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:34:47,867 INFO     [decorators.py wrapper:76] None
+2024-02-05 09:34:47,869 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 09:34:47,870 ERROR    [decorators.py wrapper:38] Sorry this username is already taken try some else !!!
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\controllers\auth_controller.py", line 39, in register_user
+    self.auth_business.register_user_to_db(user_data)
+  File "c:\Users\atomar\projects\KAVACH\src\business_logic\auth_business.py", line 35, in register_user_to_db
+    raise DuplicateError(Prompts.DUBLICATE_KEY)
+helpers.exceptions.dublicate_error.DuplicateError: Sorry this username is already taken try some else !!!
+2024-02-05 09:35:36,428 INFO     [database.py create_all_tables:44] None
+2024-02-05 09:35:36,428 INFO     [database.py create_all_tables:46] None
+2024-02-05 09:35:36,428 INFO     [database.py create_all_tables:48] None
+2024-02-05 09:35:36,428 INFO     [database.py create_all_tables:50] None
+2024-02-05 09:35:36,428 INFO     [app.py <module>:23] None
+2024-02-05 09:35:36,428 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:37:19,143 INFO     [database.py create_all_tables:44] None
+2024-02-05 09:37:19,143 INFO     [database.py create_all_tables:46] None
+2024-02-05 09:37:19,143 INFO     [database.py create_all_tables:48] None
+2024-02-05 09:37:19,143 INFO     [database.py create_all_tables:50] None
+2024-02-05 09:37:19,143 INFO     [app.py <module>:23] None
+2024-02-05 09:37:19,143 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:37:37,482 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 09:37:41,581 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:38:02,308 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 09:38:16,874 INFO     [decorators.py wrapper:72] None
+2024-02-05 09:38:29,047 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 09:38:40,180 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 09:38:46,120 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 09:38:48,539 INFO     [decorators.py wrapper:76] None
+2024-02-05 09:38:59,620 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:10:59,857 INFO     [database.py create_all_tables:44] None
+2024-02-05 10:10:59,863 INFO     [database.py create_all_tables:46] None
+2024-02-05 10:10:59,872 INFO     [database.py create_all_tables:48] None
+2024-02-05 10:10:59,872 INFO     [database.py create_all_tables:50] None
+2024-02-05 10:10:59,872 INFO     [app.py <module>:23] None
+2024-02-05 10:10:59,887 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:11:04,323 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:11:08,131 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:11:08,131 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:11:16,300 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:11:16,300 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:11:22,984 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:11:22,984 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:11:29,701 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:11:29,701 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:11:29,717 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:11:29,726 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:11:51,061 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:11:55,684 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:16:13,776 INFO     [database.py create_all_tables:44] None
+2024-02-05 10:16:13,776 INFO     [database.py create_all_tables:46] None
+2024-02-05 10:16:13,776 INFO     [database.py create_all_tables:48] None
+2024-02-05 10:16:13,776 INFO     [database.py create_all_tables:50] None
+2024-02-05 10:16:13,776 INFO     [app.py <module>:23] None
+2024-02-05 10:16:13,776 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:16:38,655 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:16:38,655 ERROR    [decorators.py wrapper:35] Sorry no data found!!!!
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\controllers\auth_controller.py", line 50, in login_user
+    user = self.auth_business.get_user_by_username_and_password(login_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\business_logic\auth_business.py", line 56, in get_user_by_username_and_password
+    raise NotFoundError(Prompts.SORRY_NO_DATA)
+helpers.exceptions.not_found.NotFoundError: Sorry no data found!!!!
+2024-02-05 10:16:38,703 WARNING  [auth_dashboard.py login_user:90] None
+2024-02-05 10:16:52,904 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:16:55,233 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:16:57,486 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:17:57,208 INFO     [database.py create_all_tables:44] None
+2024-02-05 10:17:57,208 INFO     [database.py create_all_tables:46] None
+2024-02-05 10:17:57,208 INFO     [database.py create_all_tables:48] None
+2024-02-05 10:17:57,208 INFO     [database.py create_all_tables:50] None
+2024-02-05 10:17:57,208 INFO     [app.py <module>:23] None
+2024-02-05 10:17:57,208 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:18:00,680 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:18:03,402 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:18:03,403 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:18:15,598 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:18:15,598 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:18:22,224 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:18:22,224 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:18:31,408 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:18:31,408 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:18:31,422 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:18:31,431 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:19:56,122 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:20:03,855 INFO     [common.py is_input_validation:19] None
+2024-02-05 10:20:03,855 DEBUG    [common.py is_input_validation:24] None
+2024-02-05 10:20:03,855 INFO     [common.py is_input_validation:19] None
+2024-02-05 10:20:03,855 DEBUG    [common.py is_input_validation:24] None
+2024-02-05 10:20:03,855 INFO     [common.py is_input_validation:19] None
+2024-02-05 10:20:03,855 INFO     [common.py is_input_validation:19] None
+2024-02-05 10:20:03,855 DEBUG    [common.py is_input_validation:24] None
+2024-02-05 10:21:47,581 ERROR    [decorators.py wrapper:32] You must enter length grater than or equal to 8
+Traceback (most recent call last):
+  File "c:\Users\atomar\projects\KAVACH\src\helpers\decorators.py", line 30, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\controllers\password_controller.py", line 45, in generate_password
+    return self.password_business.generate_password(length)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\atomar\projects\KAVACH\src\business_logic\password_business.py", line 40, in generate_password
+    raise RangeError("You must enter length grater than or equal to 8")
+helpers.exceptions.range_error.RangeError: You must enter length grater than or equal to 8
+2024-02-05 10:22:23,278 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:23:18,878 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:23:19,380 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:23:19,385 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:24:33,249 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:24:44,569 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:24:44,597 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:25:13,257 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:25:39,693 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:25:39,694 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:25:39,709 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:25:39,716 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:25:44,226 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:25:49,163 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:25:49,188 INFO     [database.py add_data_to_database:60] None
+2024-02-05 10:26:05,225 INFO     [decorators.py wrapper:72] None
+2024-02-05 10:26:12,614 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:26:26,164 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:26:35,839 INFO     [database.py fetch_data_from_database:72] None
+2024-02-05 10:26:38,130 INFO     [decorators.py wrapper:76] None
+2024-02-05 10:26:42,393 INFO     [decorators.py wrapper:76] None

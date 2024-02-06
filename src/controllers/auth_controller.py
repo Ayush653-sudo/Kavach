@@ -8,7 +8,7 @@
 import logging
 from config.prompts.prompts import Prompts
 from business_logic.auth_business import AuthBusiness
-from helpers.decorators import error_handler
+from helpers.decorators import *
 from models.users import User
 
 
@@ -24,7 +24,7 @@ class AuthController:
     register_user() ->method for registration purpose.
     login()->method to log in the user.
     logout()-> method to make user's logout.
-
+    
     """
     def __init__(self, auth_business):
         self.auth_business = auth_business

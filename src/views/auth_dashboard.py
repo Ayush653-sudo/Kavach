@@ -6,6 +6,7 @@ import logging
 import time
 
 import maskpass
+from dependency_container.inject_audit_dependency import injecting_audit_dependency
 from views.input_taker import InputTaker
 from config.prompts.logprompts import LogPrompts
 from config.app_config import AppConfig
@@ -77,6 +78,7 @@ class AuthDashboard:
         if user:
             DependencyContainer.User = user
             if user.role == AppConfig.REGULAR:
+                injecting_audit_dependency(user)
                 inject_regular_user_dependency(user)
                 regular_user_dashboard = DependencyContainer.regular_user_dashboard
                 regular_user_dashboard.menu()

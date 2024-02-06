@@ -14,6 +14,7 @@ class InputTaker:
         hasOnlyAlphaNumeric = r"^[a-zA-Z][a-zA-Z0-9]*$"
         if re.fullmatch(hasOnlyAlphaNumeric,username):
             return username
+        print("Enter username in alphanumeric order only\n")
     
     @staticmethod
     @looper
@@ -22,6 +23,8 @@ class InputTaker:
         emailRegex = r"^[^@\s]+@[^@\s]+\.(com|net|org|gov)$"
         if re.fullmatch(emailRegex,email):
             return email
+        print("Please Enter email correctly\n")
+        
     
     @staticmethod
     @looper
@@ -30,6 +33,7 @@ class InputTaker:
         phone_number = input(Prompts.ENTER_PHONE_NUMBER).strip()
         if re.fullmatch(hasnumber,phone_number):
             return phone_number
+        print("please enter phone number correctly")
     
     @staticmethod
     @looper
@@ -41,6 +45,7 @@ class InputTaker:
         password = maskpass.askpass(Prompts.ENTER_PASSWORD, mask="*").strip()
         if re.search(hNumber,password) and re.search(has_upper_char,password) and re.search(has_symbols,password) and re.search(has_lower_char,password):
             return password
+        print("Please enter strong password")
         
         
 

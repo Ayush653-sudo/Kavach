@@ -9,7 +9,7 @@ from helpers.exceptions.not_found import NotFoundError
 
 class UserBusiness:
     """
-
+     This class deals with interaction of controller and database layer
     """
     def get_all_users(self) -> list:
 

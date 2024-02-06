@@ -84,7 +84,7 @@ class QueryConfig:
     
     """
     GET_ALL_PASSWORD = """
-         SELECT id,user_name,website_url,password_type FROM passwords WHERE user_name = ?
+         SELECT id,user_name,website_url,password_type,last_updated FROM passwords WHERE user_name = ?
 
         """
     GET_ENCRYP_PASSWORD_AND_KEY = """

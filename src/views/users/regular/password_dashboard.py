@@ -54,6 +54,8 @@ class PasswordDashboard:
 
     def show_password_table(self):
         all_passwords = self.password_controller.get_passwords_by_username(self.user.username)
+        if len(all_passwords) == 0:
+            print(Prompts.SORRY_NO_DATA)
         display_table(all_passwords, PASSWORD_DETAIL_HEADER)
 
     def add_new_password_view(self) -> None:
@@ -73,7 +75,7 @@ class PasswordDashboard:
 
     def see_passwords_view(self) -> None:
         self.show_password_table()
-        choice_id = input(Prompts.ENTER_PASSWORD_ID_TO_SEE)
+        choice_id = input(Prompts.ENTER_PASSWORD_ID_TO_SEE).strip()
         if choice_id:
             decrypted_password = self.password_controller.get_decrypted_password_by_id(choice_id, self.user.username)
             if decrypted_password:

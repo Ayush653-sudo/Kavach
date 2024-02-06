@@ -11,7 +11,6 @@ class AuditBusiness:
     This class deals with auditing and calling db to commit the audit. 
     """
     def add_audit_password(self, audit_password: AuditPassword):     
-        print("hi")
         db.add_data_to_database(QueryConfig.INSERT_AUDIT_PASSWORD_INTO_TABLE, (audit_password.id, audit_password.password_id, audit_password.operation, audit_password.datetime,audit_password.user_name))
      
     def get_password_audit_by_status_from_db(self, password_id: str, status:str ,user_name:str) -> list:
